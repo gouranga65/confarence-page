@@ -9,12 +9,14 @@ a{
 #f_link{
     display: flex;
     letter-spacing: 2px;
+    padding-top: 20px;
 }
 #footer h3{
+    padding-top: 20px;
     color: #648880;
 }
 #footer{
-    height: 150px;
+    height: 100px;
     background-color: #293f50;
     display: flex;
     justify-content: space-around;
