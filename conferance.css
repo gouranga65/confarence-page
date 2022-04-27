@@ -5,13 +5,63 @@ body{
 a{
     text-decoration: none;
 }
-/* #home a,
-#speakers a,
-#schedule a,
-#venue a,
-#register a{
-    word-spacing: 190px;
-} */
+#f_link{
+    display: flex;
+    /* padding-right: 5px; */
+}
+#footer{
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+}
+#second{
+    display: flex;
+}
+#content3{
+    width: 300px;
+}
+#content2{
+    width: 300px;
+}
+#content1{
+    width: 300px;
+}
+#link3{
+    font-size: 9px;
+    opacity: .6;
+}
+#link2{
+    font-size: 9px;
+    opacity: .6;
+}
+#link1{
+    font-size: 9px;
+    opacity: .6;
+}
+#img3 img{
+    width: 300px;
+    /* height: 300px; */
+    border-radius: 5px;
+}
+#img2 img{
+    width: 300px;
+    /* height: 300px; */
+    border-radius: 5px;
+}
+#img1 img{
+    width: 300px;
+    /* height: 300px; */
+    border-radius: 5px;
+}
+#VENUE h3{
+    font-size: 15px;
+}
+#SPEAKERS h3{
+    font-size: 15px;
+}
+#SCHEDULE h3{
+    font-size: 15px;
+}
 #button a{
     /* it is for register now button */
     position: relative;
