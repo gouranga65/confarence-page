@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+/* #home a,
+#speakers a,
+#schedule a,
+#venue a,
+#register a{
+    word-spacing: 190px;
+} */
+#button a{
+    /* it is for register now button */
+    position: relative;
+    top: 17px;
+}
+#button{
+    /* outer design of "register now" button */
+    position: relative;
+    left: 500px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    width: 170px;
+}
+#text2{
+    /* every year text design */
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+    line-height: 45px;
+    font-size: 16px;
+}
+#text{
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 19px;
+}
+#flex{
+    display: flex;
+    padding-top: 30px;
+}
+#date{
+    line-height: 09px;
+}
+#date span{
+    font-family: monospace;
+    font-size: 20px;
+}
+#date h2{
+    font-size: 25px;
+}
+#style span a{
+    color: aliceblue;
+}
+#style span{
+    letter-spacing: 3px;
+    font-family: Lucida Console;
+    
+}
+#style{
+    line-height: 40px;
+    font-size: 50px;
+}
+#first{
+    background-color: hotpink;
+    height: 500px;
+}
