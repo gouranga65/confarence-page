@@ -4,27 +4,37 @@ body{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 #f_link{
     display: flex;
-    /* padding-right: 5px; */
+    letter-spacing: 2px;
+}
+#footer h3{
+    color: #648880;
 }
 #footer{
-    height: 100px;
-    background-color: aqua;
+    height: 150px;
+    background-color: #293f50;
     display: flex;
+    justify-content: space-around;
 }
 #second{
     display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
 }
 #content3{
     width: 300px;
+    color: #888;
 }
 #content2{
     width: 300px;
+    color: #888;
 }
 #content1{
     width: 300px;
+    color: #888;
 }
 #link3{
     font-size: 9px;
@@ -36,34 +46,45 @@ a{
 }
 #link1{
     font-size: 9px;
-    opacity: .6;
+}
+#link1 a{
+    color: #648880;
+}
+#link2 a{
+    color: #648880;
+}
+#link3 a{
+    color: #648880;
+    font-size: 15px;
 }
 #img3 img{
     width: 300px;
-    /* height: 300px; */
     border-radius: 5px;
 }
 #img2 img{
     width: 300px;
-    /* height: 300px; */
     border-radius: 5px;
 }
 #img1 img{
     width: 300px;
-    /* height: 300px; */
     border-radius: 5px;
 }
 #VENUE h3{
     font-size: 15px;
+    color: #a9b2b9;
+    letter-spacing: 2px;
 }
 #SPEAKERS h3{
     font-size: 15px;
+    color: #a9b2b9;
+    letter-spacing: 2px;
 }
 #SCHEDULE h3{
     font-size: 15px;
+    color: #a9b2b9;
+    letter-spacing: 2px;
 }
 #button a{
-    /* it is for register now button */
     position: relative;
     top: 17px;
 }
@@ -74,7 +95,7 @@ a{
     height: 50px;
     border-radius: 10px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid #fff;
     width: 170px;
 }
 #text2{
@@ -83,32 +104,42 @@ a{
     padding: 0px 150px 0px 150px;
     line-height: 45px;
     font-size: 16px;
+    color: #fff;
 }
 #text{
     text-align: center;
     word-spacing: 10px;
     font-size: 19px;
+    padding-top: 30px;
+    color: #648880;
 }
 #flex{
     display: flex;
     padding-top: 30px;
+    justify-content: space-around;
+    
 }
 #date{
+    /* display: flex; */
     line-height: 09px;
+    flex-direction: rtl;
 }
 #date span{
     font-family: monospace;
     font-size: 20px;
+    letter-spacing: 1px;
+    padding-right: 5px;
 }
 #date h2{
     font-size: 25px;
+    color: #648880;
 }
 #style span a{
     color: aliceblue;
 }
 #style span{
     letter-spacing: 3px;
-    font-family: Lucida Console;
+    font-family: lato,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 #style{
@@ -116,6 +147,6 @@ a{
     font-size: 50px;
 }
 #first{
-    background-color: hotpink;
+    background-color: #293f50;
     height: 500px;
 }
