@@ -1,0 +1,87 @@
+a {
+  text-decoration: none;
+}
+.pagelink a:hover {
+  color: #648880;
+}
+.pagelink a {
+  color: white;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  color: #293f50;
+}
+#form,
+textarea {
+  color: #648880;
+}
+ul {
+  list-style-type: square;
+}
+#block1,
+#block3 {
+  color: #648880;
+}
+#heading {
+  position: relative;
+  top: 30px;
+  font-size: 30px;
+}
+#discription {
+  position: relative;
+  top: 30px;
+  font-size: 19px;
+}
+#secondblock {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  line-height: 25px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(1, 93, 132, 0.4854984230020133) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 230px;
+  position: relative;
+  bottom: 35px;
+}
+#flex {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+  background-color: #293f50;
+  height: 150px;
+}
+#date {
+  /* display: flex; */
+  line-height: 09px;
+  flex-direction: rtl;
+}
+#date span {
+  font-family: monospace;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-right: 5px;
+}
+#date h2 {
+  font-size: 25px;
+  color: #648880;
+}
+#style span a {
+  color: aliceblue;
+}
+#style span a:hover {
+  color: #648880;
+}
+#style span {
+  letter-spacing: 3px;
+}
+#style {
+  line-height: 40px;
+  font-size: 50px;
+}
