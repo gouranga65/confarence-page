@@ -1,17 +1,67 @@
 a {
   text-decoration: none;
 }
+body {
+  margin: 0;
+  border: 0;
+}
 .pagelink a:hover {
   color: #648880;
 }
 .pagelink a {
   color: white;
 }
+#f_link {
+  display: flex;
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+#f_link a {
+  color: aliceblue;
+}
+#f_link a:hover {
+  color: #648880;
+}
+#footer {
+  height: 100px;
+  background-color: #293f50;
+  display: flex;
+  justify-content: space-around;
+}
 input[type="text"],
 input[type="email"],
 input[type="number"],
 textarea {
   color: #293f50;
+  height: 30px;
+  width: 270px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+#block4 li {
+  font-size: 19x;
+  line-height: 5px;
+}
+#pass {
+  width: 560px;
+  font-size: 19x;
+}
+#flex2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 90px;
+}
+input[type="button"] {
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px;
+  background-color: #648880;
+  font-size: 20px;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  color: aliceblue;
 }
 #form,
 textarea {
@@ -58,7 +108,6 @@ ul {
   height: 150px;
 }
 #date {
-  /* display: flex; */
   line-height: 09px;
   flex-direction: rtl;
 }

@@ -53,44 +53,54 @@
       <div id="pass">
         <div id="block1">
           <!-- pass details -->
-          <h3>Purchase a Conference Pass</h3>
-          <h2>$99 PER PASS</h2>
+          <h2>Purchase a Conference Pass</h2>
+          $99 PER PASS <br />
+          <br />
         </div>
         <div id="block2">
-          Purchase your Styles Conference pass using the form to the right.
-          Multiple passes may be purchased within the same order, so feel free
-          to bring a friend or two along. Once your order is finished we’ll
-          follow up and provide a receipt for your purchase. See you soon!
+          <h3>
+            Purchase your Styles Conference pass using the form to the right.
+            Multiple passes may be purchased within the same order, so feel free
+            to bring a friend or two along. Once your order is finished we’ll
+            follow up and provide a receipt for your purchase. See you soon!
+          </h3>
         </div>
         <div id="block3"><h3>Why Attend?</h3></div>
         <div id="block4">
           <ul>
-            <li>Over twenty world-class speakers</li>
+            <li><h3>Over twenty world-class speakers</h3></li>
             <li>
-              One full day of workshops and two full days of presentations
+              <h3>
+                One full day of workshops and two full days of presentations
+              </h3>
             </li>
-            <li>Hosted at The Chicago Theatre, a historical landmark</li>
-            <li>August in Chicago is simply amazing</li>
+            <li>
+              <h3>Hosted at The Chicago Theatre, a historical landmark</h3>
+            </li>
+            <li><h3>August in Chicago is simply amazing</h3></li>
           </ul>
         </div>
       </div>
+
       <div id="form">
         <h3>Name</h3>
         <input type="text" name="" id="" />
-        <br />
         <h3>Email</h3>
         <input type="email" name="" id="" />
-        <br />
         <h3>Number of Passes</h3>
         <input type="number" name="" id="" />
-        <br />
         <h3>Comments</h3>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="button" value="submit" />
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br />
+        <br />
+        <input type="button" value="purchase" id="submit" />
       </div>
+      <!-- flex end -->
     </div>
+    <br />
+    <!-- footer start -->
     <div id="footer">
-      <h3>&#169; Styles Conference</h3>
+      <!-- doing a inline css -->
+      <h3 style="color: white; padding-top: 20px">&#169; Styles Conference</h3>
       <div id="f_link">
         <h4 style="padding-right: 15px">
           <a href="#" target="_blank">HOME</a>
@@ -114,5 +124,9 @@
         <br />
       </div>
     </div>
+    <script>
+      document.getElementById("submit").innerHTML =
+        "thank you for your responce";
+    </script>
   </body>
 </html>
