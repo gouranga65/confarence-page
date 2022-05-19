@@ -51,7 +51,7 @@ textarea {
   justify-content: center;
   column-gap: 90px;
 }
-input[type="button"] {
+button {
   height: 40px;
   width: 150px;
   border-radius: 8px;
@@ -60,7 +60,7 @@ input[type="button"] {
   font-size: 20px;
   cursor: pointer;
 }
-input[type="button"]:hover {
+button:hover {
   color: aliceblue;
 }
 #form,
